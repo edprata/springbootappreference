@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@EnableAutoConfiguration
 public class HelloWorldRestController {
 
 	private static Long count = 1L;
